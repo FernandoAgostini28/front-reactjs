@@ -106,7 +106,7 @@ export default function FromFornecedor() {
       headers: { "Content-type": "application/json; charset=UTF-8" }
     })
       .then(response => response.json())
-      .then(json => console.log(json))
+      .then(json => {if(json.erro === false){window.location.reload()}})
       .catch(err => console.log(err));
   };
 
