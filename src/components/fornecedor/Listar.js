@@ -95,7 +95,7 @@ export default function Listar() {
 
         <>
             <CssBaseline />
-            <Container maxWidth="lg">
+            <Container maxWidth="lg" style={{ marginTop: '20px', marginBottom: '20px'}}>
                 <TableContainer component={Paper}>
                     <Table sx={{ minWidth: 300 }} aria-label="caption table">
                         {/* <caption>Lista de Fornecedores</caption> */}
