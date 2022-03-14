@@ -83,7 +83,7 @@ const ResponsiveAppBar = () => {
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">
-                                        <Link style={{color:'#ffffff'}} to={`/${page}`}>
+                                        <Link style={{color:'#ffffff', textDecoration:'none'}} to={`/${page}`}>
                                             {page}
                                         </Link>
                                     </Typography>
@@ -106,7 +106,7 @@ const ResponsiveAppBar = () => {
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
-                                <Link style={{color:'#ffffff'}} to={`/${page}`}>
+                                <Link style={{color:'#ffffff', textDecoration:'none'}} to={`/${page}`}>
                                     {page}
                                 </Link>
                             </Button>
@@ -119,7 +119,7 @@ const ResponsiveAppBar = () => {
                                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
                             </IconButton>
                         </Tooltip>
-                        <Menu
+                        {/* <Menu
                             sx={{ mt: '45px' }}
                             id="menu-appbar"
                             anchorEl={anchorElUser}
@@ -140,7 +140,7 @@ const ResponsiveAppBar = () => {
                                     <Typography textAlign="center">{setting}</Typography>
                                 </MenuItem>
                             ))}
-                        </Menu>
+                        </Menu> */}
                     </Box>
                 </Toolbar>
             </Container>
