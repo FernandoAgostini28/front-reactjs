@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### cd front-reacjs
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,3 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Bibliotecas
+
+# Material UI 5.5.0
+https://mui.com/
+
+# Material UI Icons
+https://mui.com/pt/components/material-icons/
+
+

@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { chainPropTypes } from '@mui/utils';
+import { FormHelperText } from '@mui/material';
 
 function Copyright(props) {
   return (
@@ -195,6 +196,7 @@ export default function FromFornecedor() {
                   onChange={(event) => { setCep(event.target.value) }}
                   onBlur={handleCep}
                 />
+                <FormHelperText>Formato de CEP aceito 00000-000</FormHelperText>
               </Grid>
               <Grid item xs={12}>
                 <TextField
